@@ -1,30 +1,31 @@
 @charset "UTF-8";
-
 /* 回答はここに書いてね */
 .clearfix::after {
   display: block;
   content: "";
   clear: both;
 }
+
 .q1_q1_content {
   width: 900px;
   padding: 20px;
   background-color: #eff3f4;
   margin: 0 auto;
   box-sizing: border-box;
-  
 }
+
 .q1_content_box {
   float: left;
   width: 230px;
   padding: 20px;
   margin-left: 20px;
   background-color: #3274ae;
-
 }
+
 .q1_content_box:first-child{
   margin-left: 0;
 }
+
 .q1_content_text {
   background-color: #eaf4ff;
   padding: 20px;
