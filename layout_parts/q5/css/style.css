@@ -12,7 +12,11 @@
   width: 100px;
   height: 100px;
   position: absolute;
+  line-height: 100px;
   text-align: center;
+  font-weight:bold;
+  font-size: 30px;
+
 }
 
 .box-one {
@@ -82,5 +86,11 @@
   display: block;
   float: right;
 }
-
+.box-nine {
+  background-color: #2b69a3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 10px 0 0 10px;
+}
 /* 回答はここに書いてね */
