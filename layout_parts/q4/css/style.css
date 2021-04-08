@@ -3,22 +3,22 @@
 /* 回答はここに書いてね */
 .q4-content {
   background-color: #eff3f4; 
+  padding: 25px;
 }
-.top {
+.graph {
 display: table;
 width: 100%;
 text-align: center;
+margin-top: 50px;
+}
+
+.graph:first-child {
+  margin-top: 0;
 }
 
 .child {
   display:table-cell ;
   padding: 20px 0;
-}
-
-.bottom {
-  display: table;
-  width: 100%;
-  text-align: center;
 }
 
 .orange {

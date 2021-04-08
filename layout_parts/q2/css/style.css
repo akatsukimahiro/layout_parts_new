@@ -1,20 +1,18 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
 .q2-content {
   width: 940px;
   background-color: #eff3f4;
   padding: 20px;
   margin: 0 auto;
   box-sizing: border-box;
-}
-
-.q2-top {
-  word-break: break-all;
-}
-
-.q2-bot {
-  word-break: break-all;
 }
 
 .q2-top img {
@@ -29,9 +27,10 @@
   margin-bottom: 10px;
 }
 
-p {
+.q2-top p, .q2-bot p {
   font-size: 18px;
   line-height: 22px;
+  word-break: break-all;
 }
 
 /* 回答はここに書いてね */

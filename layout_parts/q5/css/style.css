@@ -23,28 +23,28 @@
   background-color: #ffefd3;
   top: 40px;
   left: 200px;
-  z-index: 50;
+  z-index: 10;
 }
 
 .box-two {
   background-color: #7087de;
   top: 120px;
   left: 280px;
-  z-index: 70;
+  z-index: 20;
 }
 
 .box-three {
   background-color: #d0ecea;
   top: 200px;
   left: 360px;
-  z-index: 60;
+  z-index: 30;
 }
 
 .box-four {
   background-color: #8b7a5e;
   top: 280px;
   left: 280px;
-  z-index: 80;
+  z-index: 40;
 
 }
 
@@ -52,7 +52,7 @@
   background-color: #9fd6d2;
   top: 360px;
   left: 200px;
-  z-index: 90;
+  z-index: 50;
 
 }
 
@@ -60,14 +60,14 @@
   background-color:#fffee4 ;
   top: 280px ;
   left: 120px;
-  z-index: 100;
+  z-index: 60;
 }
 
 .box-seven {
   background-color:#deae70 ;
   top: 200px;
   left: 40px;
-  z-index: 110;
+  z-index: 70;
 }
 
 .box-eight {
@@ -75,7 +75,7 @@
   position: absolute;
   top: 120px;
   left: 120px;
-  z-index: 120;
+  z-index: 80;
 }
 
 .box-eight::before {
@@ -84,14 +84,14 @@
   height: 20px;
   background-color: #ffefd3;
   display: block;
-  float: right;
+  position: absolute;
+  left:80px;
 }
 
 .box-nine {
   background-color: #2b69a3;
   position: fixed;
-  top: 0;
-  left: 0;
-  margin: 10px 0 0 10px;
+  top: 10px;
+  left: 10px;
 }
 /* 回答はここに書いてね */

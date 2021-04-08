@@ -1,34 +1,34 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q3 {
+.q3-content {
   margin: 0 auto; 
 }
 
-table {
+.parent {
   table-layout: fixed;
   width: 100%;
 }
-tr,td,th {
+parent tr,td,th {
   border: solid #dedede 1px;
   text-align: center;
   padding: 10px 0;
 }
 
-tr:last-child {
+.parent tbody tr:last-child {
   border-top: dashed #000 2px;
 }
 
-tr:nth-child(odd) {
+.parent tr:nth-child(odd) {
   background-color: #ecf1f2;
 }
 
-td {
+.parent td {
   font-size: 16px;
   line-height: 22px;
 }
 
-th {
+.parent th {
   background-color:#2244aa ;
   color: white;
   font-size: 18px;

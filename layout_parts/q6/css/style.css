@@ -1,14 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.text p {
-  text-align: center;
-  background-color: #e6f2ff;
-  width: 90px;
-  padding: 10px 0;
-}
-
-.mar p {
+.text p, .mar p {
   text-align: center;
   background-color: #e6f2ff;
   width: 90px;
@@ -27,7 +20,7 @@
   margin: 0 auto;
 }
 
-.q6--around p {
+.table-content p, .flex-content p {
 background-color: #fff;
 padding: 10px ;
 }
@@ -52,11 +45,11 @@ padding: 10px ;
   align-items: center;
 }
 
-.is-stable {
+.position-left, .position-right {
   position: relative;
 }
 
-.is-stable p {
+.position-left p {
   position: absolute;
   top: 0;
   right: 0;
@@ -65,17 +58,11 @@ padding: 10px ;
   margin: auto;
 }
 
-.is-flexible {
-  position: relative;
-}
-
-.is-flexible p {
+.position-right p {
   display: inline-block;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
-
-
 /* 回答はここに書いてね */
