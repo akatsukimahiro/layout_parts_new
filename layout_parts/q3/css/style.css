@@ -9,7 +9,7 @@
   table-layout: fixed;
   width: 100%;
 }
-parent tr,td,th {
+.parent tr,td,th {
   border: solid #dedede 1px;
   text-align: center;
   padding: 10px 0;
