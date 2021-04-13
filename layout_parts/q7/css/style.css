@@ -25,14 +25,14 @@
 }
 
 .q7-two-box {
-  
   display: table-cell;
   vertical-align: middle;
+  
 }
 
 .q7-table-text2 {
-  margin-left: 50px;
   width: 225px;
+  margin-left: 50px;
   box-sizing: border-box;
 }
 
@@ -52,6 +52,7 @@
 .flex-content {
   display: flex;
   justify-content: space-around;
+  align-items: flex-start;
   
 }
 
