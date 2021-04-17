@@ -6,28 +6,38 @@
   overflow: hidden;
   width: 500px;
   margin: 0 auto;
+  cursor: pointer;
+}
+.q8-img img {
+  transition: all 0.5s;
 }
 
-.q8-img img:hover {
-  transition-duration: 0.5s;
+.q8-img img:hover{
   transform: scale(1.5);
   filter: brightness(0.8);
 }
 
-.q8-img img:hover + .img-word {
-  opacity: 1;
-  transition-duration: 0.5s;
+.img-word {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: -100%;
+  transition: all 0.5s;
 }
 
-.q8-img  .img-word {
+.q8-img :hover +.img-word {
+  transform: translateY(-100%);
+}
+
+.img-text {
   position: absolute;
-  left: 20px;
-  right: 20px;
-  bottom:20px;
-  font-size: 16px;
-  line-height: 16px;
-  color:#ffff;
-  opacity: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  word-break: break-all;
+  color:#fff;
 }
 
 .loading-icon {
@@ -45,6 +55,4 @@
     transform: rotate(360deg);
   }
 }
-
-
 /* 回答はここに書いてね */

@@ -21,11 +21,10 @@
   position: absolute;
   left: 20px;
   top:100% ;
-  border-right: 30px solid transparent;
   border-top: 30px solid #222;
+  border-right: 30px solid transparent;
   border-left: 30px solid transparent;
 }
-
 .comment::after {
   content: '';
   position: absolute;

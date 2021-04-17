@@ -7,7 +7,7 @@
   clear: both;
 }
 
-.q7-one {
+.q7-float {
   width: 225px;
   float: left;
   font-size: 16px;
@@ -15,26 +15,30 @@
   margin-left: 50px;
 }
 
-.q7-one:first-child{
+.q7-float:first-child{
   margin-left: 0;
 }
 
-.q7-two {
+.q7-table {
   display: table;
   
 }
 
-.q7-two-box {
+.q7-table-box {
   display: table-cell;
   vertical-align: middle;
-  
+  padding-left:50px ;
+}
+.q7-table-box:first-child{
+  padding-left: 0;
 }
 
-.q7-table-text2 {
+.q7-table-right {
   width: 225px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
   box-sizing: border-box;
 }
+
 
 .inline-box {
   display: inline-block;
@@ -62,17 +66,22 @@
   
 }
 
-.q7-5-wrapper {
+.q7-wrapper {
   display: flex;
 }
-
-
-.q7-box-one {
+.box-left {
+  display: inline-block;
   width: 300px;
+  vertical-align: top;
 }
-.q7-box-two {
-  flex: 1;
-  margin-left: 50px;
+.box-right {
+  display: inline-block;
+  width: 100%;
+  margin-left:-300px;
+  padding-left: 350px;
+  box-sizing: border-box;
 }
+
+
 
 /* 回答はここに書いてね */
