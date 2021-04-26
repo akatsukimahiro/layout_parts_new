@@ -8,25 +8,26 @@
   margin: 0 auto;
   cursor: pointer;
 }
-.q8-img img {
+.car-img {
   transition: all 0.5s;
 }
 
-.q8-img img:hover{
+.q8-img:hover .car-img{
   transform: scale(1.5);
   filter: brightness(0.8);
 }
 
 .img-word {
   position: absolute;
+  transition: all 0.5s;
   width: 100%;
   height: 100%;
   bottom: -100%;
-  transition: all 0.5s;
+  left: 0;
 }
 
-.q8-img :hover +.img-word {
-  transform: translateY(-100%);
+.q8-img:hover .img-word {
+  bottom: 0;
 }
 
 .img-text {

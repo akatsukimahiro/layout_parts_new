@@ -39,14 +39,17 @@
   box-sizing: border-box;
 }
 
+.inline-wrapper {
+  font-size: 0;
+}
 
 .inline-box {
   display: inline-block;
+  font-size: 16px;
   width: 225px;
   vertical-align: middle;
   box-sizing: border-box;
-  margin-left: 45px;
-  
+  margin-left: 50px;  
 }
 
 .inline-box:first-child {

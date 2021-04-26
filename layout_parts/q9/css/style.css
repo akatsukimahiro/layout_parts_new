@@ -13,25 +13,21 @@
 .comment p {
   text-align: justify;
   font-size: 16px;
-  line-height: 16px; 
+  line-height: 16px;
 }
-
-.comment::before {
+.comment::before, .comment::after {
   content: '';
   position: absolute;
   left: 20px;
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
+}
+.comment::before {
   top:100% ;
   border-top: 30px solid #222;
-  border-right: 30px solid transparent;
-  border-left: 30px solid transparent;
 }
 .comment::after {
-  content: '';
-  position: absolute;
-  left: 20px;
   top: 95%;
-  border-right: 30px solid transparent;
   border-top: 30px solid #fff;
-  border-left: 30px solid transparent;
 }
 /* 回答はここに書いてね */
