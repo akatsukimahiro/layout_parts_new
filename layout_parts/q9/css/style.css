@@ -22,10 +22,12 @@
   border-right: 30px solid transparent;
   border-left: 30px solid transparent;
 }
+
 .comment::before {
   top:100% ;
   border-top: 30px solid #222;
 }
+
 .comment::after {
   top: 95%;
   border-top: 30px solid #fff;
